@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+html, body, h1 {
+  	padding: 0;
+  	margin: 0;
+  	font-family: 'Montserrat', sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+#app {
+  	background: #0a0a0a;
+  	height: 100vh;
+  	width: 100%;
+  	margin: 0;
+  	padding: 0;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, .9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url('https://dev.aljaxus.eu/static/img/maik-jonietz-535261-unsplash.jpg');
+  	background-size: cover;
+  	background-position: center;
+  	z-index: 1;
+}
+#wrapper {
+	width: 90%;
+  	text-align: center;
+}
+@media (min-width: 992px) {
+   .sub {
+   letter-spacing: .1em;
+   }
+}
+
+.sub {
+  	color: #64dcdc;
+  	letter-spacing: .2em;
+}

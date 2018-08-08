@@ -1,0 +1,52 @@
+div.mywork {
+    position:relative;
+	margin-top: 5vh;
+	margin-left: 10%;
+	width: 80%;
+	padding: 12px 12px;
+}
+
+div.mywork > .mywork_lefttop,
+div.mywork > .mywork_leftbottom,
+div.mywork > .mywork_righttop,
+div.mywork > .mywork_rightbottom,
+div.mywork > .mywork_topleft,
+div.mywork > .mywork_topright,
+div.mywork > .mywork_bottomleft,
+div.mywork > .mywork_bottomright {
+	position: absolute;
+    background-color: #fff;
+	transition: border 1s ease-in-out;
+}
+
+@media (min-width: 992px) {
+
+	div.mywork {
+		margin-left: 30%!important;
+		width: 40%!important;
+	}
+
+}
+
+div.mywork .button {
+  display: inline-block;
+  margin: 12px;
+  padding: 7px 12px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  border: none;
+  font-size: 15px;
+  text-align: center;
+}
+div.mywork .button:hover {
+  box-shadow: 1px 6px 15px rgba(50,50,50,0.6);
+}
