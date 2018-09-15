@@ -71,7 +71,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 						<a id="contacts-email" href="mailto:aljaxus.dev@gmail.com" class="button" target="_blank" style="background-color:#D64541;color:black;"><i class="fas fa-envelope fa-2x"></i></a>
 						<a id="contacts-discord" href="https://discord.aljaxus.eu" class="button" target="_blank" style="background-color:#3A539B;color:black;"><i class="fab fa-discord fa-2x"></i></a>
-						<a id="contacts-discord" href="https://github.com/LazosPlaying" class="button" target="_blank" style="background-color:#2f2f2f;color:#FFF;"><i class="fab fa-github fa-2x"></i></a>
+						<a id="contacts-discord" href="https://github.com/aljaxus" class="button" target="_blank" style="background-color:#2f2f2f;color:#FFF;"><i class="fab fa-github fa-2x"></i></a>
 
 					<div class="contacts_bottomleft" style="bottom:-1px;left:1px;width:40%;height:1px;"></div>
 					<div class="contacts_leftbottom" style="bottom:1px;left:-1px;width:1px;height:25%;"></div>
